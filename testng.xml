@@ -9,9 +9,4 @@
         </classes>
     </test>
 
-    <!-- Parallel execution configuration (optional) -->
-    <!-- <test name="Parallel Tests" parallel="methods" thread-count="4">
-        <classes>...</classes>
-    </test> -->
-
 </suite>

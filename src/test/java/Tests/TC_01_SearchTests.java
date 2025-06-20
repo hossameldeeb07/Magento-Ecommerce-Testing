@@ -21,7 +21,7 @@ public class TC_01_SearchTests extends BaseTest {
         Assert.assertTrue(results, "No results found for valid search");
     }
 
-    @Test(priority = 2,description = "Verify search functionality (INVALID)!")
+    @Test(priority = 2, description = "Verify search functionality (INVALID)!")
     @Description("Verify invalid product search shows no results message")
     @Severity(SeverityLevel.NORMAL)
     public void testInvalidProductSearch() {
