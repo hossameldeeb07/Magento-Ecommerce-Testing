@@ -18,3 +18,35 @@ This project contains Selenium automation tests for Magento e-commerce website.
 - Selenium WebDriver
 - TestNG
 - Maven
+src/
+├── main/java/
+│   ├── Base/
+│   │   └── BaseTest.java
+│   ├── Pages/
+│   │   ├── HomePage.java
+│   │   ├── SearchResultsPage.java
+│   │   ├── ProductPage.java
+│   │   ├── CartPage.java
+│   │   └── CheckoutPage.java
+│   └── Utils/
+│       ├── ElementActions.java
+│       ├── ScrollUtils.java
+│       └── Waits.java
+└── test/java/
+└── Tests/
+├── TC_01_SearchTests.java
+├── TC_02_CartTests.java
+├── TC_03_CheckoutTests.java
+└── TC04_SQL_Injection_Security_Test.java
+
+## Setup Instructions
+
+### Prerequisites
+- Java 17 or higher
+- Maven 3.6+
+- Chrome browser
+
+### Installation
+1. Clone the repository:
+```bash
+git clone https://github.com/hossameldeeb07/Magento-Ecommerce-Testing
