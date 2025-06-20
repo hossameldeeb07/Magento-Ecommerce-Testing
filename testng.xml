@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Magento E-Commerce Test Suite" verbose="1">
+    <test name="Regression Tests">
+        <classes>
+            <class name="Tests.TC_01_SearchTests"/>
+            <class name="Tests.TC_02_CartTests"/>
+            <class name="Tests.TC_03_CheckoutTests"/>
+            <class name="Tests.TC04_SQL_Injection_Security_Test"/>
+        </classes>
+    </test>
+
+    <!-- Parallel execution configuration (optional) -->
+    <!-- <test name="Parallel Tests" parallel="methods" thread-count="4">
+        <classes>...</classes>
+    </test> -->
+
+</suite>
